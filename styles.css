@@ -1539,25 +1539,25 @@ section {
   justify-content: center;
   align-items: center;
   width: 100%;
-  height: 50px;
+  height: 63px;
   line-height: 100px;
   text-align: center;
 }
 .v-preloader .loading-text span {
   display: inline-flex;
-  margin: 0 5px;
+  margin: 0 1px;
   font-family: "Montserrat", sans-serif;
   font-size: 2rem;
   color: var(--color-white);
 }
 .v-preloader .loading-text span.l {
-  margin: 0 -6px;
+  margin: 0 -9px;
 }
 .v-preloader .loading-text span:last-child {
   align-self: flex-end;
 }
 .v-preloader .loading-text span img {
-  max-width: 2.25rem;
+  width: 40px;
   height: auto;
 }
 .v-preloader .loading-text span:nth-child(1) {
@@ -2004,24 +2004,24 @@ html:not(.v-mobile) .section-main__title.visible .v-split-text__letter:hover {
   /* stylelint-disable-next-line */
 }
 html:not(.v-mobile) .section-main__title.visible .v-split-text__letter:nth-child(1):hover {
-  transform: translate(0, -0.625rem) rotate(-15deg) scale(1.1);
-  color: var(--color-section-subtitle);
+  transform: translate(0, -0.625rem) rotate(15deg) scale(1.1);
+  color: var(--color-highlight);
 }
 
 .section-main__title.visible .v-split-text__letter:nth-child(2) {
   /* stylelint-disable-next-line */
 }
 html:not(.v-mobile) .section-main__title.visible .v-split-text__letter:nth-child(2):hover {
-  transform: translate(0, -0.625rem) rotate(15deg) scale(1.1);
-  color: var(--color-highlight);
+  transform: translate(0, -0.625rem) rotate(-15deg) scale(1.1);
+  color: var(--color-section-subtitle);
 }
 
 .section-main__title.visible .v-split-text__letter:nth-child(3) {
   /* stylelint-disable-next-line */
 }
 html:not(.v-mobile) .section-main__title.visible .v-split-text__letter:nth-child(3):hover {
-  transform: translate(0, -0.625rem) rotate(-15deg) scale(1.1);
-  color: var(--color-section-subtitle);
+  transform: translate(0, -0.625rem) rotate(15deg) scale(1.1);
+  color: var(--color-highlight);
 }
 
 .section-main__title.visible .v-split-text__letter:nth-child(4) {
@@ -2036,8 +2036,8 @@ html:not(.v-mobile) .section-main__title.visible .v-split-text__letter:nth-child
   /* stylelint-disable-next-line */
 }
 html:not(.v-mobile) .section-main__title.visible .v-split-text__letter:nth-child(5):hover {
-  transform: translate(0, -0.625rem) rotate(15deg) scale(1.1);
-  color: var(--color-highlight);
+  transform: translate(0, -0.625rem) rotate(-15deg) scale(1.1);
+  color: var(--color-section-subtitle);
 }
 
 .section-main__title.visible .v-split-text__letter:nth-child(6) {
@@ -2060,16 +2060,16 @@ html:not(.v-mobile) .section-main__title.visible .v-split-text__letter:nth-child
   /* stylelint-disable-next-line */
 }
 html:not(.v-mobile) .section-main__title.visible .v-split-text__letter:nth-child(8):hover {
-  transform: translate(0, -0.625rem) rotate(15deg) scale(1.1);
-  color: var(--color-highlight);
+  transform: translate(0, -0.625rem) rotate(-15deg) scale(1.1);
+  color: var(--color-section-subtitle);
 }
 
 .section-main__title.visible .v-split-text__letter:nth-child(9) {
   /* stylelint-disable-next-line */
 }
 html:not(.v-mobile) .section-main__title.visible .v-split-text__letter:nth-child(9):hover {
-  transform: translate(0, -0.625rem) rotate(-15deg) scale(1.1);
-  color: var(--color-section-subtitle);
+  transform: translate(0, -0.625rem) rotate(15deg) scale(1.1);
+  color: var(--color-highlight);
 }
 
 .section-main__title.visible .v-split-text__letter:nth-child(10) {
@@ -2084,16 +2084,16 @@ html:not(.v-mobile) .section-main__title.visible .v-split-text__letter:nth-child
   /* stylelint-disable-next-line */
 }
 html:not(.v-mobile) .section-main__title.visible .v-split-text__letter:nth-child(11):hover {
-  transform: translate(0, -0.625rem) rotate(-15deg) scale(1.1);
-  color: var(--color-section-subtitle);
+  transform: translate(0, -0.625rem) rotate(15deg) scale(1.1);
+  color: var(--color-highlight);
 }
 
 .section-main__title.visible .v-split-text__letter:nth-child(12) {
   /* stylelint-disable-next-line */
 }
 html:not(.v-mobile) .section-main__title.visible .v-split-text__letter:nth-child(12):hover {
-  transform: translate(0, -0.625rem) rotate(15deg) scale(1.1);
-  color: var(--color-highlight);
+  transform: translate(0, -0.625rem) rotate(-15deg) scale(1.1);
+  color: var(--color-section-subtitle);
 }
 
 .section-main__title.visible .v-split-text__letter:nth-child(13) {
@@ -2108,16 +2108,16 @@ html:not(.v-mobile) .section-main__title.visible .v-split-text__letter:nth-child
   /* stylelint-disable-next-line */
 }
 html:not(.v-mobile) .section-main__title.visible .v-split-text__letter:nth-child(14):hover {
-  transform: translate(0, -0.625rem) rotate(15deg) scale(1.1);
-  color: var(--color-highlight);
+  transform: translate(0, -0.625rem) rotate(-15deg) scale(1.1);
+  color: var(--color-section-subtitle);
 }
 
 .section-main__title.visible .v-split-text__letter:nth-child(15) {
   /* stylelint-disable-next-line */
 }
 html:not(.v-mobile) .section-main__title.visible .v-split-text__letter:nth-child(15):hover {
-  transform: translate(0, -0.625rem) rotate(15deg) scale(1.1);
-  color: var(--color-highlight);
+  transform: translate(0, -0.625rem) rotate(-15deg) scale(1.1);
+  color: var(--color-section-subtitle);
 }
 
 .section-main__content {
@@ -3148,4 +3148,8 @@ canvas {
 .bubbles svg {
   position: fixed;
   top: 100vh;
+}
+
+.plug {
+  display: none;
 }
